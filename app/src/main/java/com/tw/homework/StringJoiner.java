@@ -12,9 +12,6 @@ public class StringJoiner {
      * @return The joined string.
      */
     public static String join(List<String> input) {
-        if (input == null) {
-            return "";
-        }
         return Joiner.on(",").skipNulls().join(input);
     }
 }
