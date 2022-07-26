@@ -22,7 +22,7 @@
 
 ## Problem 2：引入第三方 library 重构代码
 
-请引入 `29.0-jre` 版本的 `Guava` 库，使用 `Joiner` 重构 `StringJoiner` 类的 `join` 方法。
+请引入 `31.1-jre` 版本的 `Guava` 库，使用 `Joiner` 重构 `StringJoiner` 类的 `join` 方法。
 
 请确保重构后的代码可以通过全部测试。
 
